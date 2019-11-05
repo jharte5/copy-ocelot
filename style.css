@@ -1,0 +1,17 @@
+body {
+    background-color: #168599;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.navlist {
+    display: block;
+
+}
+/* 
+.top-row-right {
+    /* justify-content: flex-end; */
+/* }  */
