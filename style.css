@@ -16,27 +16,24 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
 }
 
 #sub-div-1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* position: relative; */
+    padding-right: 5em;
 }
 #div-2 {
     display: flex; 
     flex-direction: row-reverse;
     justify-content: flex-start;
-
 }
 
 #sub-div-2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-start;
-    
 }
 
 .nav-item {
@@ -98,7 +95,6 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    /* flex-wrap: wrap; */
 }
 
 #second-partII {
@@ -106,8 +102,15 @@ li {
     color: whitesmoke;
     display: flex;
     flex-direction: row;
-    /* justify-content: flex-end; */
-    /* flex-wrap: wrap; */
+}
+
+#second-partIII {
+    padding-top: 5em;
+    background-color: navy;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .bolden {
     font-size: 80%;
@@ -118,4 +121,5 @@ li {
 
 h1 {
     font: bold;
+    font-size: 100%;
 }
